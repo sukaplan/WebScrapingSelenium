@@ -16,8 +16,8 @@ function sendMail() {
   const app = SpreadsheetApp;
   const ss = app.getActiveSpreadsheet();
 
-  const mail = "suukaplan@outlook.com";
-  const name = "Türkü Su Kaplan"
+  const mail = "...";
+  const name = "..."
   file = DriveApp.getFileById(ss.getId());
 
   MailApp.sendEmail({
