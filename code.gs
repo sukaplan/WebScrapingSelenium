@@ -18,11 +18,13 @@ function sendMail() {
 
   const mail = "...";
   const name = "..."
+  const body = "...;
   file = DriveApp.getFileById(ss.getId());
 
   MailApp.sendEmail({
     to: mail,
     subject: name,
+    htmlBody: body,
     attachments: file
   });
 }
